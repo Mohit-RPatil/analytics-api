@@ -1,0 +1,30 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# macOS system files
+.DS_Store
+
+# IDE
+*.code-workspace
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
